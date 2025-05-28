@@ -1,36 +1,43 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 欢迎来到 ByteLoom Studio 的官方主页
+description: ByteLoom Studio 中存放了部分学习资源供参考和下载
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: ByteLoom Studio 中存放了部分学习资源供参考和下载
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 前往文档页
+      link: /docs/greeting
       icon: right-arrow
-    - text: Read the Starlight docs
+    - text: 关于我们
       link: https://starlight.astro.build
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+
+import {Card, CardGrid} from '@astrojs/starlight/components';
+
+## ByteLoom Studio 资源概述
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+    <Card title="计算机网络复习资料" icon="pencil" >
+        ByteLoom Studio 提供的计算机网络复习资料
+    </Card>
+    {/*
+        <Card title="Add new content" icon="add-document">
+        Add Markdown or MDX files to `src/content/docs` to create new pages.
+    </Card>
+    <Card title="Configure your site" icon="setting">
+        Edit your `sidebar` and other config in `astro.config.mjs`.
+    </Card>
+    <Card title="Read the docs" icon="open-book">
+        Learn more in [the Starlight Docs](https://starlight.astro.build/).
+    </Card>
+    */}
+
+
+
 </CardGrid>
