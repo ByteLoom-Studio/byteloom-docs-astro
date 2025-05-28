@@ -1,6 +1,10 @@
 ---
-title: Introduction
+title : Introduction
+sidebar:
+  order : 2
 ---
+> Author : CG
+
 ## 存储转发
 存储转发是一种常见的分组交换方式。在网络设备（如路由器、交换机）中，接收到整个数据包后，才开始处理并决定下一跳转发的路径。
 
