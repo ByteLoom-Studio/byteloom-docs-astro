@@ -136,4 +136,7 @@
     li{
         padding-left: 40px;
     }
+    p{
+        display: inline;
+    }
 }
