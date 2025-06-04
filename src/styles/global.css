@@ -140,6 +140,6 @@
         display: inline;
     }
 }
-svg {
-    display: inline;
+.sl-markdown-content :is(img, picture, video, canvas, svg, iframe):not(:where(.not-content *)) {
+    display:inline;
 }
